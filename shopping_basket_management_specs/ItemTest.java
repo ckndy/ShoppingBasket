@@ -9,7 +9,7 @@ public class ItemTest {
   @Before 
   public void before() {
 
-    item = new Item;
+    item = new Item();
   }
 
   @Test
@@ -19,7 +19,7 @@ public class ItemTest {
 
   @Test
   public void canSetName() {
-    
+
   }
 
 
