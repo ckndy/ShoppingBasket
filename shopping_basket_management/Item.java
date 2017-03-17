@@ -14,9 +14,16 @@ public class Item {
     return this.name
   }
 
-  public String setName() {
+  public String setName(String name) {
     this.name = name;
   }
 
-  public 
+  public Double getPrice() {
+    return this.price;
+  }
+
+  public Double setPrice() {
+    this.price = price;
+
+  }
 }
