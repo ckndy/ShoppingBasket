@@ -22,5 +22,15 @@ public class ItemTest {
 
   }
 
+  @Test
+  public void canGetName() {
+
+  }
+
+  @Test
+  public void canSetName() {
+    
+  }
+
 
 }
