@@ -6,5 +6,21 @@ public class ItemTest {
 
   Item item;
 
+  @Before 
+  public void before() {
+
+    item = new Item;
+  }
+
+  @Test
+  public void canGetName() {
+
+  }
+
+  @Test
+  public void canSetName() {
+    
+  }
+
 
 }
