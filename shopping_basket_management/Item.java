@@ -3,27 +3,24 @@ package shopping_basket_management;
 public class Item {
 
   private String name;
-  private Double price;
+  private double price;
+  private boolean bogof;
 
-  public Item(String name, Double price) {
+  public Item(String name, double price) {
     this.name = name;
     this.price = price;
+    this.bogof = bogof;
   }
 
   public String getName() {
-    return this.name
+    return this.name;
   }
 
-  public String setName(String name) {
-    this.name = name;
-  }
-
-  public Double getPrice() {
+  public double getPrice() {
     return this.price;
   }
 
-  public Double setPrice() {
-    this.price = price;
-
+  public boolean getBogof() {
+    return this.bogof;
   }
 }
