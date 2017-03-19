@@ -1,5 +1,5 @@
 package shopping_basket_management;
-import 
+import java.util.ArrayList;
 
 public class Basket {
 
@@ -9,15 +9,32 @@ public class Basket {
     this.item = new ArrayList<Item>();
   }
 
+  public ArrayList<Item> getItem() {
+    return this.item;
+  }
+
+  public int itemCount() {
+    return item.size();
+  }
+
   public void addItem() {
-    item.add(item);
+    basket.addItem();
   }
 
   public void removeItem() {
-    item.remove(item);
+    basket.removeItem();
   }
 
   public void emptyBasket() {
+    basket.clear();
+  }
+
+  // public void applyDiscount() {
+
+  // }
+
+  // public void totalValue() {
+
   }
 }
 

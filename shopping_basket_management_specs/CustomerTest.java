@@ -1,6 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
+import shopping_basket_management.*;
 
 public class CustomerTest {
 
@@ -10,7 +11,7 @@ public class CustomerTest {
 
   @Before
   public void before() {
-    customer = new Customer("Chris");
+    customer = new Customer("Chris", true);
     basket = new Basket();
     loyaltyCard = new LoyaltyCard();
   }
