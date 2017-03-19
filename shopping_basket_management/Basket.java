@@ -9,10 +9,6 @@ public class Basket {
     this.item = new ArrayList<Item>();
   }
 
-  public ArrayList<Item> getItem() {
-    return this.item;
-  }
-
   public int itemCount() {
     return item.size();
   }
